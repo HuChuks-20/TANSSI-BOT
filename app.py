@@ -91,16 +91,17 @@ Focus on what you do best:
 
 *Community Mod*
 - 7,000 Coco Gems + History of helping and good vibes
-
-*Full Role Catalog:*
-https://discord.com/channels/1072940134040883251/1330824150117388289 
 """,
-  "link":"discordlink(https://discord.com/channels/1072940134040883251/1330824150117388289),galxe link(https://app.galxe.com/quest/tanssinetwork/GCLVrtmwM5)",
+  "link":"discordlink(https://discord.gg/tanssi),galxe link(https://app.galxe.com/quest/tanssinetwork/GCLVrtmwM5) ,guild(guild.xyz/tanssinetwork)",
        
   "tge":"""TGE and mainnet is scheduled for Q2(june) 2025- more details on $TANSSI distribution;core community& ecosystem programs(30% unlocks at TGE,with  the rest distributed through monthly unlocking for three years-Note:some sub programs like JTM are fully unlocked @ TGE),
      community sales(fully unlocked 40 days post TGE), LFD campaigns(20% unlocks at TGE, with the remaining 80% unlocking over 60 days),
     Foundation reserve(30% unlocks at TGE, and the remaining 70%  unlocks monthly for three years).
 """,
+   "started":"""hey! to  get started, join our discord server .link(https://discord.gg/tanssi) go to -activity tracker
+- Create a post titled: [YourUsername] - Activity Log
+- Log everything you contribute (threads, content, support, events)
+- Add proof: links, screenshots, or details"""""
 }
    
 

@@ -8,7 +8,7 @@
 
 
     <style>
-        body {
+      body {
             margin: 0;
             font-family: 'Segoe UI', sans-serif;
             background: linear-gradient(to bottom right, #96a5c8, #e9efff);
@@ -155,12 +155,57 @@
 }
 
 
+.branding {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.mascot {
+ width: auto;
+ margin-top: 100px;
+  height: 80px;
+  animation: float 2s ease-in-out infinite;
+}
+
+.title {
+  font-family: 'Orbitron', sans-serif;
+  color: #ff6f00;
+  text-shadow: 0 0 4px #ff6f00aa;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+body {
+  background: linear-gradient(to right, #0f0f0f, #1c1c1c);
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.chat-container {
+  border: 1px solid #333;
+  border-radius: 10px;
+  background-color: #121212;
+  padding: 15px;
+  box-shadow: 0 0 12px #ff6f0044;
+}
+
+
     </style>
-</head>
-<body>
+</head><div class="branding">
+  <img src="/static/images/forkie copy.jpg" alt="Forkie" class="mascot">
+</div>
+
+
     <div class="chat-container">
         <div class="header" style="display: flex; justify-content: space-between; align-items: center; gap: 10px;">
-       <img src="forkie copy.jpg"alt="" style="height: 50px;">
+      <!--- <img src="forkie copy.jpg"alt="" style="height: 50px;">-->
           <div id="introBubble" style="margin-top: 8px; font-size: 13px; background: #fff3cd; color: #856404; padding: 6px 12px; border-radius: 12px;">
         👋 Hi! I’m Forkie. Ask me anything about Tanssi.
     </div>
@@ -228,3 +273,6 @@
     </script>
 </body>
 </html>
+
+
+
