@@ -4,7 +4,10 @@ import difflib
 
 app = Flask(__name__)
 CORS(app)
-
+    
+ user_msg = request.args.get("msg", "").lower()
+   for keyword, answer in qa_keywords.items():
+        if re.search(rf"\b{keyword}\b", user_msg):
 qa_pairs = {
     "hey":"Yoo! ready to  launch faster,scale smarter and vibe harder? just say the word!",
     "hello":"heya!it's forkie here-sharp,shiny,and ready to  serve some mainnet magic.what can i help you with today?",
@@ -40,12 +43,14 @@ if __name__ == "__main__":
 from flask import Flask, render_template, request
 from flask_cors import CORS
 import re
+import difflib
+import string
 
 app = Flask(__name__)
 CORS(app)
 
 # Keyword-based smart Q&A
-qa_keywords = {
+qa_pairs = {
     "hi":"hi ,welcome to tanssi-ready  to spin up  something amazing ?",
      "hey":"Yoo! ready to  launch faster,scale smarter and vibe harder? just say the word!",
      "hello":"heya!it's forkie here-sharp,shiny,and ready to  serve some mainnet magic.what can i help you with today?",
@@ -109,18 +114,52 @@ Focus on what you do best:
 - Add proof: links, screenshots, or details"""""
 }
    
-
-@app.route("/")
+"""@app.route("/")
 def home():
     return render_template("index.html")
 
 @app.route("/get")
 def chatbot():
-    user_msg = request.args.get("msg", "").lower()
-    for keyword, answer in qa_keywords.items():
-        if re.search(rf"\b{keyword}\b", user_msg):
-            return answer
-    return "🤖 Hmm... I’m not sure about that. Try asking something about Tanssi, Forkie, RPCs, or appchains."
+       
+    
+ user_msg = request.args.get("msg", "").lower()
+for pair, answer in qa_pairs.items():
+        if re.search(rf"\b{pair}\b", user_msg):
+ # Find closest match using fuzzy matching
 
+    best_match = difflib.get_close_matches(msg, qa_pairs.keys(), n=1, cutoff=0.4)
+ 
+if best_match:
+     return qa_pairs[best_match[0]]
+else:
+    return "🤖 I’m not sure how to answer that yet. Try asking about Tanssi, Forkie, or appchains."
+if __name__ == "__main__":
+    app.run(debug=True)"""
+
+
+def normalize(text):
+    return text.lower().translate(str.maketrans('', '', string.punctuation)).strip()
+
+# Matching logic
+def get_best_answer(user_input):
+    user_input = normalize(user_input)  # normalize user input
+    questions = list(qa_pairs.keys())
+    matches = difflib.get_close_matches(user_input, questions, n=1, cutoff=0.4)
+    if matches:
+        return qa_pairs[matches[0]]
+    else:
+        return "I'm not sure. Please ask something related to Tanssi."
+
+# Routes
+@app.route("/")
+def home():
+    return render_template("index.html")  # HTML page
+
+@app.route("/get")
+def chatbot():
+    user_message = request.args.get("msg", "")  # 👈 this defines 'msg'
+    return get_best_answer(user_message)
+
+# Run the app
 if __name__ == "__main__":
     app.run(debug=True)
