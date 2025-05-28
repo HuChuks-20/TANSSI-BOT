@@ -46,16 +46,21 @@ CORS(app)
 
 # Keyword-based smart Q&A
 qa_keywords = {
-     "hi":"hey hey,friend!forkie here-your favourite dancing fork and tanssi official sidekick-Need help launchung an appchain?want the scoop on maiinet?or just here to  vibe and build ?i got you ",
-    "hey":"Yoo! ready to  launch faster,scale smarter and vibe harder? just say the word!",
-    "hello":"heya!it's forkie here-sharp,shiny,and ready to  serve some mainnet magic.what can i help you with today?",
-    "tanssi": "Tanssi is a launchpad for appchains built on Polkadot. It helps developers launch their own blockchain with minimal setup.Tanssi abstracts the infrastructure layer—validator orchestration, sequencing, and tooling—so teams can launch with real security and full control. Whether you’re building an AVS, appchain, or custom network, Tanssi gives you the freedom to focus on logic, not low-level coordination.",
+    "hi":"hi ,welcome to tanssi-ready  to spin up  something amazing ?",
+     "hey":"Yoo! ready to  launch faster,scale smarter and vibe harder? just say the word!",
+     "hello":"heya!it's forkie here-sharp,shiny,and ready to  serve some mainnet magic.what can i help you with today?",
+      "what is tanssi":"""Tanssi is a modular appchain infrastructure protocol that radically simplifies and accelerates the launch of application-specific blockchains (appchains) — now expanding across both Polkadot and Ethereum ecosystems. Tanssi enables Restaking-Powered Security
+       Through integration with Symbiotic (a modular restaking protocol on Ethereum), Tanssi enables Ethereum-native security for non-Polkadot appchains.""",
+     "hi what is tanssi" : """Tanssi is a modular appchain infrastructure protocol that radically simplifies and accelerates the launch of application-specific blockchains (appchains) — now expanding across both Polkadot and Ethereum ecosystems. Tanssi enables Restaking-Powered Security
+     Through integration with Symbiotic (a modular restaking protocol on Ethereum), Tanssi enables Ethereum-native security for non-Polkadot appchains.""",
+     "what's tanssi":"""Tanssi is a modular appchain infrastructure protocol that radically simplifies and accelerates the launch of application-specific blockchains (appchains) — now expanding across both Polkadot and Ethereum ecosystems. Tanssi enables Restaking-Powered Security
+     Through integration with Symbiotic (a modular restaking protocol on Ethereum), Tanssi enables Ethereum-native security for non-Polkadot appchains.""",
     "forkie": "Forkie is the Tanssi mascot — fast, creative, and always on-chain!",
     "rpc": "Tanssi provides fast and scalable RPC endpoints for appchains to connect and interact efficiently.",
     "explorer": "Tanssi includes chain explorers so you can easily monitor appchain transactions and activity.",
     "wallet": "Tanssi integrates wallets for users to interact with appchains easily.",
     "launch": "You can launch an appchain on Tanssi in minutes using its modular tools and shared infrastructure.",
-    "infrastructure": "Tanssi provides modular infrastructure like shared security, RPCs, and tooling to make launching an appchain easy.",
+    "infrastructure": "Tanssi provides modular infrastructure like shared security via symbiotic, RPCs, and tooling to make launching an appchain easy.",
     "shared security": "Appchains on Tanssi benefit from Polkadot’s shared security model — so you don’t have to bootstrap your own.",
     "tooling": "Tanssi offers CLI tools, templates, and dashboards to help you build and deploy appchains fast.",
     "appchain": "An appchain is a blockchain built for a specific app — Tanssi makes launching them seamless.",

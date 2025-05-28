@@ -196,6 +196,36 @@ body {
   box-shadow: 0 0 12px #ff6f0044;
 }
 
+.chatBox  {
+  position: relative;
+  background-color: teal;
+  border-radius: 12px;
+  padding: 20px;
+  overflow: auto;
+  z-index: 1;
+}
+
+
+.chatBox::before{
+  content: "";
+  position: absolute;
+ /** background-image: url("{{ url_for('static', filename='images/forkie copy.jpg') }}");**/
+  top: 0; left: 0; bottom: 0; right :0; 
+  background: url("/static/images/forkie\ copy.jpg") no-repeat center ;
+  height:100%;
+  width: 100%;
+  opacity: 0.2; /* Controls transparency */
+  z-index: 0;
+  background-size:cover; /* Adjust size */
+  pointer-events: none;
+}
+.chatBox  * {
+  position: relative;
+  z-index: 1;
+}
+
+
+
 
     </style>
 </head><div class="branding">
@@ -212,11 +242,13 @@ body {
          <div id="toggleTheme" style="cursor: pointer; font-size: 20px;" onclick="toggleDarkMode()">🌙</div>
       </div>
 
-    <div id="chatBox"></div>
+     <div id="chatBox" class="chatBox"></div>
+  <!-- chat messages here --->
+
         <div class="input-area">
             <input type="text" id="userInput" placeholder="Ask something about Tanssi...">
             <button onclick="sendMessage()">Send</button>
-     
+   
      
     
         
