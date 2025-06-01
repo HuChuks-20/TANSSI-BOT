@@ -54,11 +54,11 @@ qa_pairs = {
     "hi":"hi ,welcome to tanssi-ready  to spin up  something amazing ?",
      "hey":"Yoo! ready to  launch faster,scale smarter and vibe harder? just say the word!",
      "hello":"heya!it's forkie here-sharp,shiny,and ready to  serve some mainnet magic.what can i help you with today?",
-      "what is tanssi":"""Tanssi is a modular appchain infrastructure protocol that radically simplifies and accelerates the launch of application-specific blockchains (appchains) — now expanding across both Polkadot and Ethereum ecosystems. Tanssi enables Restaking-Powered Security
+      "what is tanssi":"""Tanssi is a modular appchain infrastructure protocol that radically simplifies and accelerates the launch of application-specific blockchains (appchains) — now expanding across both Polkadot and Ethereum ecosystems. Tanssi provides modular infrastructure like shared security
        Through integration with Symbiotic (a modular restaking protocol on Ethereum), Tanssi enables Ethereum-native security for non-Polkadot appchains.""",
-     "hi what is tanssi" : """Tanssi is a modular appchain infrastructure protocol that radically simplifies and accelerates the launch of application-specific blockchains (appchains) — now expanding across both Polkadot and Ethereum ecosystems. Tanssi enables Restaking-Powered Security
+     "hi what is tanssi" : """Tanssi is a modular appchain infrastructure protocol that radically simplifies and accelerates the launch of application-specific blockchains (appchains) — now expanding across both Polkadot and Ethereum ecosystems.Tanssi provides modular infrastructure like shared security
      Through integration with Symbiotic (a modular restaking protocol on Ethereum), Tanssi enables Ethereum-native security for non-Polkadot appchains.""",
-     "what's tanssi":"""Tanssi is a modular appchain infrastructure protocol that radically simplifies and accelerates the launch of application-specific blockchains (appchains) — now expanding across both Polkadot and Ethereum ecosystems. Tanssi enables Restaking-Powered Security
+     "what's tanssi":"""Tanssi is a modular appchain infrastructure protocol that radically simplifies and accelerates the launch of application-specific blockchains (appchains) — now expanding across both Polkadot and Ethereum ecosystems. Tanssi provides modular infrastructure like shared security
      Through integration with Symbiotic (a modular restaking protocol on Ethereum), Tanssi enables Ethereum-native security for non-Polkadot appchains.""",
     "forkie": "Forkie is the Tanssi mascot — fast, creative, and always on-chain!",
     "rpc": "Tanssi provides fast and scalable RPC endpoints for appchains to connect and interact efficiently.",
@@ -69,10 +69,11 @@ qa_pairs = {
     "shared security": "Appchains on Tanssi benefit from Polkadot’s shared security model — so you don’t have to bootstrap your own.",
     "tooling": "Tanssi offers CLI tools, templates, and dashboards to help you build and deploy appchains fast.",
     "appchain": "An appchain is a blockchain built for a specific app — Tanssi makes launching them seamless.",
-    "mainnet":"tanssi mainnet and TGE is scheduled for june 2025(no exact date yet).",
-     "campaign":"Journey to Mainnet, Tanssi's Pre-TGE Airdrop Campaign is Live on DISCORD ,GALXE AND GUILD ",
-   "builders":"cycle,everclear,particle,symbiotic.you c", # type: ignore
-   "contribute":"""first, you need roles.Now that you have your role — here’s how to start contributing and growing🔹 Step 1: Create Your Activity Tracker Post
+     "tanssi ongoing campaigns":"""Journey to Mainnet, Tanssi's Pre-TGE Airdrop Campaign is Live on DISCORD ,GALXE AND GUILD! 
+        and aslo an ongoing  okx campaign.
+         discord link(https://discord.gg/tanssi),galxe link(https://app.galxe.com/quest/tanssinetwork/GCLVrtmwM5) ,guild link(guild.xyz/tanssinetwork) ,OKX Campaign link(https://web3.okx.com/giveaway/tanssi)""",
+   "tanssi builders and partners builders":"cycle,everclear,particle,symbiotic.you c", # type: ignore
+   "how can i contribute to tanssi":"""first, you need roles.Now that you have your role — here’s how to start contributing and growing🔹 Step 1: Create Your Activity Tracker Post
 - Go to tanssi discord -activity tracker
 - Create a post titled: [YourUsername] - Activity Log
 - Log everything you contribute (threads, content, support, events)
@@ -96,22 +97,24 @@ Focus on what you do best:
 🔹 Dancer L3 → 5,000 Coco Gems + 2 Forkie Tickets + Recognized impact
 🔹 Forkstar → 10,000 Coco Gems + 3 Forkie Tickets + Proven leadership
 
-*Skill-Based Roles*
-(Creatooor, Memooor, etc.):  → 3,000 Coco Gems + 1 Forkie Ticket + Proof of work
+  *Skill-Based Roles*
+   (Creatooor, Memooor, etc.):  → 3,000 Coco Gems + 1 Forkie Ticket + Proof of work
 
-*Community Mod*
-- 7,000 Coco Gems + History of helping and good vibes
-""",
-  "link":"discordlink(https://discord.gg/tanssi),galxe link(https://app.galxe.com/quest/tanssinetwork/GCLVrtmwM5) ,guild(guild.xyz/tanssinetwork)",
+    *Community Mod*
+   - 7,000 Coco Gems + History of helping and good vibes
+    """,
+   "link":"discordlink(https://discord.gg/tanssi),galxe link(https://app.galxe.com/quest/tanssinetwork/GCLVrtmwM5) ,guild(guild.xyz/tanssinetwork)",
        
-  "tge":"""TGE and mainnet is scheduled for Q2(june) 2025- more details on $TANSSI distribution;core community& ecosystem programs(30% unlocks at TGE,with  the rest distributed through monthly unlocking for three years-Note:some sub programs like JTM are fully unlocked @ TGE),
+  "when is tanssi mainnet and tge":"""TGE and mainnet is scheduled for Q2(june) 2025- more details on $TANSSI distribution;core community& ecosystem programs(30% unlocks at TGE,with  the rest distributed through monthly unlocking for three years-Note:some sub programs like JTM are fully unlocked @ TGE),
      community sales(fully unlocked 40 days post TGE), LFD campaigns(20% unlocks at TGE, with the remaining 80% unlocking over 60 days),
-    Foundation reserve(30% unlocks at TGE, and the remaining 70%  unlocks monthly for three years).
-""",
+     Foundation reserve(30% unlocks at TGE, and the remaining 70%  unlocks monthly for three years).
+       """,
    "started":"""hey! to  get started, join our discord server .link(https://discord.gg/tanssi) go to -activity tracker
-- Create a post titled: [YourUsername] - Activity Log
-- Log everything you contribute (threads, content, support, events)
-- Add proof: links, screenshots, or details"""""
+    - Create a post titled: [YourUsername] - Activity Log
+    - Log everything you contribute (threads, content, support, events)
+     - Add proof: links, screenshots, or details""""",
+
+    "thank you": "you are always welcomed buddy.Always ready to answer your tanssi related questions!!",
 }
    
 """@app.route("/")
@@ -145,10 +148,11 @@ def get_best_answer(user_input):
     user_input = normalize(user_input)  # normalize user input
     questions = list(qa_pairs.keys())
     matches = difflib.get_close_matches(user_input, questions, n=1, cutoff=0.4)
+
     if matches:
         return qa_pairs[matches[0]]
     else:
-        return "I'm not sure. Please ask something related to Tanssi."
+        return "🤖 I’m not sure how to answer that yet. Try asking about Tanssi, Forkie, or appchains."
 
 # Routes
 @app.route("/")
